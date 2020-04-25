@@ -4,7 +4,9 @@
   "description": "![Design preview for the Single Price Grid Component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Nothing to do\" && exit 1",
+    "deploy": "now"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/yunseop-dev/single-price-grid-component/issues"
   },
-  "homepage": "https://github.com/yunseop-dev/single-price-grid-component#readme"
+  "homepage": "https://github.com/yunseop-dev/single-price-grid-component#readme",
+  "devDependencies": {
+    "now": "^18.0.0"
+  }
 }
